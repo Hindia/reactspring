@@ -1,10 +1,11 @@
 package fi.vamk.tka.reactspring.model;
 
-public class GroupTest{
+import org.junit.Test;
+
+public class GroupTest {
     @Test
-    public void firstTest(){
+    public void firstTest() {
         System.out.println("testingggggggggg");
     }
-
 
 }
