@@ -37,5 +37,6 @@ public class GroupTest {
         // check if the user group is added
 
         assertEquals(group.getName(), found.getName());
+        repo.delete(found);
     }
 }
