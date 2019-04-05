@@ -11,4 +11,4 @@ before_script:
 
 before_install:
   - chmod +x mvnw
-  - sudo mysql -e 'CREATE DATABASE e1500943_reactspringtravis;'
+  - sudo mysql -e 'CREATE DATABASE e1500943_reactspring;'
