@@ -8,4 +8,9 @@ public class GroupTest {
         System.out.println("testingggggggggg");
     }
 
+    @Test
+    public void secondTest() {
+        System.out.println("testingggggggggg againnnnnnnnnnnnnnnnn");
+    }
+
 }
