@@ -41,8 +41,7 @@ class EventController {
     ResponseEntity<Event> createEvent(@Valid @RequestBody Event event) throws URISyntaxException {
         log.info("Request to create event: {}", event);
         Event result = eventRepository.save(event);
-        return ResponseEntity.created(new URI("/api/event/" + result.getId()))
-                .body(result);
+        return ResponseEntity.created(new URI("/api/event/" + result.getId())).body(result);
     }
 
     @PutMapping("/event")
