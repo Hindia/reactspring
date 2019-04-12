@@ -11,7 +11,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class User {
+public class MyUser {
     @Id
     private String name;
     private String email;
